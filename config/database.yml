@@ -55,8 +55,3 @@ production:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: ajax_app_production
-  username: ajax_app
-  password: <%= ENV['AJAX_APP_DATABASE_PASSWORD'] %>
